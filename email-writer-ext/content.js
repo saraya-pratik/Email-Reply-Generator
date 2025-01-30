@@ -99,6 +99,7 @@ function injectButton() {
     })
 
     toolbar.insertBefore(button, toolbar.firstChild);
+   
 }
 
 const observer = new MutationObserver((mutations) => {
